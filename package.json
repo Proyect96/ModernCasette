@@ -1,0 +1,24 @@
+{
+  "name": "moderncasette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "slash": "nodemon slashcommands.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.0.1",
+    "@discordjs/voice": "^0.13.0",
+    "discord-music-player": "^9.1.1",
+    "discord.js": "^13.10.2",
+    "ffmpeg": "^0.0.4",
+    "fs": "^0.0.1-security",
+    "isomorphic-unfetch": "^3.1.0",
+    "nodemon": "^2.0.19"
+  }
+}
