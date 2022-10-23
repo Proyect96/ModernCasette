@@ -1,14 +1,14 @@
 {
-  "name": "moderncasette",
+  "name": "y",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bot de musica para Discord v13",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon .",
     "slash": "nodemon slashcommands.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Proyect_096",
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.8.0",
@@ -20,5 +20,14 @@
     "fs": "^0.0.1-security",
     "isomorphic-unfetch": "^3.1.0",
     "nodemon": "^2.0.19"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Proyect96/ModernCasette.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Proyect96/ModernCasette/issues"
+  },
+  "homepage": "https://github.com/Proyect96/ModernCasette#readme"
 }
