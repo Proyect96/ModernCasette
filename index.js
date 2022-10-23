@@ -19,18 +19,6 @@ for (const file of slashcommandsFiles) {
     client.slashcommands.set(slash.data.name, slash)
 }
 
-const mongoose = require('mongoose')
-
-const log = console.log;
-
-mongoose.connect(c.mongoDB, {
-    useNewUrlParser: true,
-}).then(() => {
-    log("Conectado a MongoDB")
-}).catch((e) => {
-    log(`Error al conectarse a mongoDB, ${e}`)
-})
-
 client.on("ready", () => {
     console.log("Bot Encendido");
 })
